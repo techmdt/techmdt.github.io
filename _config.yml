@@ -23,8 +23,8 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Tech Ubion
-email: mslee@ubion.co.kr
+title: Metanet Digital Blog
+email: mslee@metanet.co.kr
 author: mslee
 # Copyright setting
 # You can use any html code, currently below placeholders are available:
