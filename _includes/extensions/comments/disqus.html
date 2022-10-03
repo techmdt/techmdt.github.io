@@ -1,0 +1,18 @@
+  <div id="disqus_thread"></div>
+  <script>
+  /**
+    var disqus_config = function () {
+      this.page.url = '{{ page.url | absolute_url }}';
+      this.page.identifier = '{{ page.url | absolute_url }}';
+    };
+  */
+    (function() {
+      var d = document, s = d.createElement('script');
+
+         s.src = 'https://{{ site.disqus.shortname }}.disqus.com/embed.js'; /** 여기를 비활성화하고 아래 disqus를 활성화하면 댓글기능이 보임*/
+    /**  s.src = 'https://ubion.disqus.com/embed.js'; 요 사이트 도메인네임(shortname)을 입력해야 함 */
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
